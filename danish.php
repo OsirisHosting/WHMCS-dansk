@@ -84,7 +84,6 @@ $_LANG['cartdomainsconfigdesc'] = "Nedenfor kan du konfigurere domæner i din be
 $_LANG['cartdomainshashosting'] = "Har hosting";
 $_LANG['cartdomainsnohosting'] = "Ingen hosting! Klik her for at tilføje hosting";
 $_LANG['carteditproductconfig'] = "Rediger tilpasning";
-$_LANG['cartempty'] = "Din bestillingskurv er tom";
 $_LANG['cartempty'] = "Din kurv er tom";
 $_LANG['cartemptyconfirm'] = "Er du sikker på, at du vil tømme din bestillingskurv?";
 $_LANG['cartexistingclientlogin'] = "Eksisterende kunde login";
