@@ -143,7 +143,7 @@ $_LANG['clientareacontactsemailsdomain'] = "Domæne e-mails - Fornyelses påmind
 $_LANG['clientareacontactsemailsgeneral'] = "Generelle e-mails - Generel annoncering & adgangskode reminders";
 $_LANG['clientareacontactsemailsinvoice'] = "Faktura e-mails - Faktura & rykkerskrivelser";
 $_LANG['clientareacontactsemailsproduct'] = "Produkt e-mails - Ordre detaljer, Velkomst e-mail osv.";
-$_LANG['clientareacontactsemailssupport'] = "Support Emails - Receive a copy of all support ticket communications created by the parent account holder";
+$_LANG['clientareacontactsemailssupport'] = "Support e-mails - Modtag en copi af alle support tickets";
 $_LANG['clientareacountry'] = "Land";
 $_LANG['clientareacurrentsecurityanswer'] = "Indtast venligst dit sikkerhedssvar";
 $_LANG['clientareacurrentsecurityquestion'] = "Vælg venligst dit sikkerhedsspørgsmål";
@@ -164,11 +164,11 @@ $_LANG['clientareaerroraddress12'] = "Din adresse kan kun indeholde bogstaver, t
 $_LANG['clientareaerrorbannedemail'] = "Vi tillader ikke brugere med den e-mail udbyder du indtastede. Prøv venligst en anden e-mail adresse.";
 $_LANG['clientareaerrorcity'] = "Du indtastede ikke din by";
 $_LANG['clientareaerrorcity2'] = "Din by kan kun indeholde bogstaver, tal og mellemrum";
-$_LANG['clientareaerrorcountry'] = "vælg venligst land fra drop down menuen";
+$_LANG['clientareaerrorcountry'] = "Vælg venligst land fra drop down menuen";
 $_LANG['clientareaerroremail'] = "Du indtastede ikke din e-mail adresse";
 $_LANG['clientareaerroremailinvalid'] = "Den indtastede e-mail adresse er ikke gyldig";
-$_LANG['clientareaerroremailexists'] = "The email address entered is not available for use.";
-$_LANG['clientareaerrorusernotassoc'] = "The email address entered is not available for use.";
+$_LANG['clientareaerroremailexists'] = "E-mail adressen du intastet er ikke er ikke tilgænglig at bruge.";
+$_LANG['clientareaerrorusernotassoc'] = "E-mail adressen du intastet er ikke er ikke tilgænglig at bruge.";
 $_LANG['clientareaerrorfirstname'] = "Du indtastede ikke dit fornavn";
 $_LANG['clientareaerrorfirstname2'] = "Dit fornavn kan kun indeholde bogstaver";
 $_LANG['clientareaerrorisrequired'] = "er påkrævet";
@@ -290,9 +290,9 @@ $_LANG['creditcardsecuritynotice'] = "Data du indtaster her blevet sendt sikkert
 $_LANG['creditcarduseexisting'] = "Brug eksisterende kreditkort";
 $_LANG['customfieldvalidationerror'] = "Det indtastede er ikke gyldigt";
 $_LANG['days'] = "Dage";
-$_LANG['hours'] = "Hours";
-$_LANG['minutes'] = "Minutes";
-$_LANG['seconds'] = "Seconds";
+$_LANG['hours'] = "Timer";
+$_LANG['minutes'] = "Minutter";
+$_LANG['seconds'] = "Sekunder";
 $_LANG['defaultbillingcontact'] = "Standard faktura kontakt";
 $_LANG['domainalternatives'] = "Du kan prøve et af disse alternativer:";
 $_LANG['domainavailable'] = "Ledigt! Bestil nu";
@@ -386,7 +386,7 @@ $_LANG['domainunavailable1'] = "Beklager!";
 $_LANG['domainunavailable2'] = "er allerede registreret!";
 $_LANG['domainreserved'] = "Reserved";
 $_LANG['domainreserved1'] = "Domain";
-$_LANG['domainreserved2'] = "is available, but reserved.";
+$_LANG['domainreserved2'] = "er tilgængeligt, men reserveret.";
 $_LANG['domainviewwhois'] = "se whois rapport";
 $_LANG['downloaddescription'] = "Beskrivelse";
 $_LANG['downloadloginrequired'] = "Adgang nægtet! Du skal være logget ind før du kan downloade filen";
@@ -467,7 +467,7 @@ $_LANG['kbsuggestions'] = "Forslag fra vidensdatabasen";
 $_LANG['kbsuggestionsexplanation'] = "Følgende artikler fra vidensdatabasen kan måske besvare dine spørgsmål. Venligst læs de viste forslag før kontakt.";
 $_LANG['knowledgebasearticles'] = "Artikler";
 $_LANG['knowledgebasecategories'] = "Kategorier";
-$_LANG['nokbcategories'] = "No categories exist";
+$_LANG['nokbcategories'] = "Ingen kategorier excitere";
 $_LANG['knowledgebasedescription'] = "Gemmense vidensdatabasen for de oftest stillede spørgsmål";
 $_LANG['knowledgebasefavorites'] = "Føj til favoritter";
 $_LANG['knowledgebasehelpful'] = "Hjalp dette svar dig?";
@@ -538,8 +538,8 @@ $_LANG['networkissuestitle'] = "Netværks problemer";
 $_LANG['networkissuestypeother'] = "Andre";
 $_LANG['networkissuestypeserver'] = "Server";
 $_LANG['networkissuestypesystem'] = "System";
-$_LANG['networkIssuesAware'] = "We are aware of a potentially service impacting issue.";
-$_LANG['networkIssuesScheduled'] = "There are upcoming maintenance events which may impact our services.";
+$_LANG['networkIssuesAware'] = "Vi er opmærksomme på et potentielt problem, der påvirker tjenesten.";
+$_LANG['networkIssuesScheduled'] = "Der er kommende vedligeholdelsesbegivenheder, som kan påvirke vores tjenester.";
 $_LANG['newpassword'] = "Ny adgangskode";
 $_LANG['nextpage'] = "Næste side";
 $_LANG['no'] = "Nej";
@@ -743,13 +743,13 @@ $_LANG['sslorderdate'] = "Ordre dato";
 $_LANG['sslserverinfo'] = "Server information";
 $_LANG['sslserverinfodetails'] = "Du skal have et gyldigt \"CSR\" (Certificate Signing Request) for at konfigurere dit SSL certifikat. CSR er en krypteret text, som er genereret af webserveren hvor SSL certifikat skal installeres. Hvis du ikke har et CSR, skal du generere et eller spørge din webhosting udbyder om dette. Det er vigtigt, at du instaster al information korrekt, da det ikke kan ændres efter SSL certifikatet er blevet godkendt.";
 $_LANG['sslservertype'] = "Webserver type";
-$_LANG['sslstatus'] = "Konfigurations status";
-$_LANG['sslawaitingconfig'] = "Awaiting Configuration";
-$_LANG['sslconfigure'] = "Configure";
+$_LANG['sslstatus'] = "Konfigurationsstatus";
+$_LANG['sslawaitingconfig'] = "Afventer konfiguration";
+$_LANG['sslconfigure'] = "Konfigurer";
 $_LANG['ssldomain'] = "Domain";
-$_LANG['sslproduct'] = "SSL Product";
-$_LANG['sslrenewaldate'] = "Renewal Date";
-$_LANG['sslresendmail'] = "Resend Email";
+$_LANG['sslproduct'] = "SSL-produkt";
+$_LANG['sslrenewaldate'] = "Fornyelsesdato";
+$_LANG['sslresendmail'] = "Send e-mail igen";
 $_LANG['statscreditbalance'] = "Konto kredit balance";
 $_LANG['statsdueinvoicesbalance'] = "Overskredet faktura balance";
 $_LANG['statsnumdomains'] = "Antal domæner";
@@ -803,9 +803,9 @@ $_LANG['supportticketsticketurgencyhigh'] = "Høj";
 $_LANG['supportticketsticketurgencylow'] = "Lav";
 $_LANG['supportticketsticketurgencymedium'] = "Medium";
 $_LANG['supportticketsuploadfailed'] = "Kunne ikke uploade filen";
-$_LANG['supportticketsuploadtoolarge'] = "Uploaded file was too large. Please try uploading a smaller file.";
+$_LANG['supportticketsuploadtoolarge'] = "Den uploadede fil var for stor. Prøv at uploade en mindre fil.";
 $_LANG['supportticketsviewticket'] = "Vis support sag";
-$_LANG['supportticketclosedmsg'] = "This ticket is closed.  You may reply to this ticket to reopen it.";
+$_LANG['supportticketclosedmsg'] = "Denne ticket er lukket.  Du kan svare på denne ticket for at genåbne den.";
 $_LANG['telesignincorrectpin'] = "Forkert pin!";
 $_LANG['telesigninitiatephone'] = "Vi kan ikke starte telefon validering på dit nummer. Kontakt os venligst.";
 $_LANG['telesigninvalidnumber'] = "Ugyldigt telefonnummer";
@@ -852,10 +852,10 @@ $_LANG['whoisresults'] = "WHOIS resultater for";
 $_LANG['yes'] = "Ja";
 $_LANG['yourdetails'] = "Dine detaljer";
 $_LANG['user'] = "User";
-$_LANG['loggedInAs'] = "Logged in as";
-$_LANG['viewAllPricing'] = "View all pricing";
+$_LANG['loggedInAs'] = "Logged in som";
+$_LANG['viewAllPricing'] = "Se alle priser";
 $_LANG['default'] = "Default";
-$_LANG['maxFileSize'] = "Max file size: :fileSize";
+$_LANG['maxFileSize'] = "Maks. Filstørrelse: :fileSize";
 
 # Version 4.1
 
@@ -870,8 +870,8 @@ $_LANG['pwresetemailnotfound'] = "Ingen konto blev fundet med den indtastede E-m
 $_LANG['pwresetsecurityquestionrequired'] = "Da du har et sikkerhedsspørgsmål opsat på din konto, skal du indtaste svaret på dette spørgsmål nedenfor.";
 $_LANG['pwresetsecurityquestionincorrect'] = "Sikkerhedssvaret du indtastede stemmer ikke overens med svaret angivet i din konto.";
 $_LANG['pwresetsubmit'] = "Indsend";
-$_LANG['pwresetrequested'] = "Password Reset Requested";
-$_LANG['pwresetcheckemail'] = "If the email address you entered matched an existing account, please check your email for instructions on what to do next.";
+$_LANG['pwresetrequested'] = "Nulstilling af adgangskode anmodet";
+$_LANG['pwresetcheckemail'] = "Hvis den e-mail-adresse, du indtastede, matchede en eksisterende konto, skal du tjekke din e-mail for at få instruktioner om, hvad du skal gøre næste.";
 $_LANG['pwresetkeyinvalid'] = "Nulstillingslinket du har fulgt er ugyldigt. Prøv venligst igen.";
 $_LANG['pwresetkeyexpired'] = "Nulstillingslinket du har fulget er udløbet. Prøv venligst igen.";
 $_LANG['pwresetvalidationsuccess'] = "Adgangskode nulstilling gennemført";
@@ -900,7 +900,7 @@ $_LANG['invoicepaymentfailedconfirmation'] = "Desværre mislykkedes din betaling
 $_LANG['promoappliedbutnodiscount'] = "Rabatkoden du indtastede er blevet anvendt på din bestillingskurv, men ingen produkter er berørt af rabatten -  tjek venligst detaljerne for rabatten.";
 
 $_LANG['upgradeerroroverdueinvoice'] = "Du kan ikke opgradere/nedgradere dette produkt fordi en faktura allerede er blevet genereret for den næste fornyelse.<br /><br />For at fortsætte, betal først den udestående faktura. Derefter vil du være i stand til at opgradere/nedgradere med det samme og få afregnet differencen.";
-$_LANG['upgradeexistingupgradeinvoice'] = "You cannot currently upgrade or downgrade this product because an upgrade or downgrade is already in progress.<br /><br />To proceed, please first pay the outstanding invoice and then you will be able to upgrade or downgrade immediately following that and be charged the difference or credited as appropriate.<br/><br/>If you believe you are receiving this message in error, please submit a trouble ticket.";
+$_LANG['upgradeexistingupgradeinvoice'] = "Du kan i øjeblikket ikke opgradere eller nedgradere dette produkt, fordi en opgradering eller nedgradering allerede er i gang.<br /><br />For at fortsætte skal du først betale den udestående faktura, så vil du være i stand til at opgradere eller nedgradere umiddelbart efter det og blive opkrævet forskellen eller krediteret efter behov.<br/><br/>Hvis du mener, at du modtager denne meddelelse ved en fejltagelse, skal du indsende en fejlbillet.";
 
 $_LANG['subaccountactivate'] = "Aktiver underkonto";
 $_LANG['subaccountactivatedesc'] = "Afkryds for at konfigurere som underkonto med kundecenter-adgang";
@@ -919,7 +919,7 @@ $_LANG['subaccountpermsorders'] = "Placer nye ordrer/opgraderinger/annulleringer
 $_LANG['subaccountpermissiondenied'] = "Du har ikke de nødvendige tilladelser for at få adgang til denne side.";
 $_LANG['subaccountallowedperms'] = "Dine tilladelser er:";
 $_LANG['subaccountcontactmaster'] = "Kontakt hoved konto ejeren hvis du mener, at dette er en fejl.";
-$_LANG['subaccountSsoDenied'] = "You do not have permission to login using Single Sign-On.";
+$_LANG['subaccountSsoDenied'] = "Du har ikke tilladelse til at logge ind ved hjælp af Single Sign-On.";
 
 $_LANG['knowledgebasealsoread'] = "Læs også";
 
@@ -1184,7 +1184,7 @@ $_LANG['domainmassrenew'] = "Forny domæner";
 $_LANG['captchatitle'] = "Spam robot verifikation";
 $_LANG['captchaverify'] = "De tegn du ser på billedet nedenfor, skal indtastes i tekstboksen. Dette er nødvendigt for at forhindre misbrug af registreringerne.";
 $_LANG['captchaverifyincorrect'] = "De indtastede tegn matchede ikke billedet, der vises. Prøv venligst igen.";
-$_LANG['googleRecaptchaIncorrect'] = "Please complete the captcha and try again.";
+$_LANG['googleRecaptchaIncorrect'] = "Udfyld captcha og prøv igen.";
 $_LANG['recaptcha-invalid-site-private-key'] = "Der opstod en fejl, du bedes kontakte support (fejlkode: cap1)";
 $_LANG['recaptcha-invalid-request-cookie'] = "Der opstod en fejl, prøv igen (fejlkode: cap2)";
 $_LANG['recaptcha-incorrect-captcha-sol'] = "De indtastede tegn matchede ikke ord verifikation. Prøv venligst igen.";
@@ -1282,15 +1282,15 @@ $_LANG['supportticketsnoneopen'] = "Der er i øjeblikket ingen åbne supportsage
 $_LANG['invoicesnoneunpaid'] = "Der er i øjeblikket ingen ubetalte fakturaer";
 
 $_LANG['registerdisablednotice'] = "For at registrere skal du afgive en <strong><a href=\"cart.php\">ordre</a></strong>";
-$_LANG['registerCreateAccount'] = "To create an account, please";
-$_LANG['registerCreateAccountOrder'] = "place an order with us";
+$_LANG['registerCreateAccount'] = "For at oprette en konto bedes du";
+$_LANG['registerCreateAccountOrder'] = "placer en ordre hos os";
 
 $_LANG['pwstrength'] = "Adgangskodens styrke";
 $_LANG['pwstrengthenter'] = "Indtast en adgangskode";
 $_LANG['pwstrengthweak'] = "Svag";
 $_LANG['pwstrengthmoderate'] = "Moderat";
 $_LANG['pwstrengthstrong'] = "Stærk";
-$_LANG['pwstrengthrating'] = "New Password Rating";
+$_LANG['pwstrengthrating'] = "Ny adgangsklassificering";
 
 $_LANG['managing'] = "Administrerer";
 $_LANG['information'] = "Information";
@@ -1303,7 +1303,7 @@ $_LANG['moduleactionsuccess'] = "Handlingen er gennemført med succes!";
 $_LANG['moduleactionfailed'] = "Handlingen mislykkedes";
 
 $_LANG['domaininfoexp'] = "Til højre kan du finde oplysninger om dit domæne. Du kan administrere dit domæne ved hjælp af fanebladene ovenfor.";
-$_LANG['domainrenewexp'] = "Aktiver automatisk fornyelse, så sender vi dig automatisk en faktura for fornyelsen, før dit domæne udløber. ";
+$_LANG['domainrenewexp'] = "Aktiver automatisk fornyelse, så sender vi dig automatisk en faktura for fornyelsen, før dit domæne udløber.";
 $_LANG['domainnsexp'] = "Her kan du ændre hvor dit domæne skal peger hen. Vær opmærksom på ændringer kan tage op til 24 timer før alle navneserver er opdateret.";
 $_LANG['domainlockingexp'] = "Lås dit domæne for at forhindre det i at blive flyttet væk (redelegeret) uden din tilladelse.";
 $_LANG['domaincurrentlyunlocked'] = "Domænet er på nuværende tidspunkt ulåst!";
@@ -1427,10 +1427,10 @@ $_LANG['newsletterresubscribe'] = "Hvis du ønsker at gen-tilmelde, kan du gøre
 $_LANG['unsubscribehashinvalid'] = "Afmelding mislykkedes, kontakt venligst support.";
 $_LANG['unsubscribesuccess'] = "Afmelding lykkedes";
 $_LANG['newsletterremoved'] = "Mange tak, din E-mail adresse er nu blevet fjernet fra vores mailing liste.";
-$_LANG['newslettersubscribed'] = "You have been successfully subscribed to our mailing list.";
-$_LANG['emailMarketingAlreadyOptedIn'] = "You are already subscribed to our mailing list.";
-$_LANG['emailMarketingAlreadyOptedOut'] = "You are already unsubscribed from our mailing list.";
-$_LANG['manageSubscription'] = "Manage Subscription";
+$_LANG['newslettersubscribed'] = "Du er med succes abonneret på vores adresseliste.";
+$_LANG['emailMarketingAlreadyOptedIn'] = "Du abonnerer allerede på vores mailingliste.";
+$_LANG['emailMarketingAlreadyOptedOut'] = "Du abonnerer allerede på vores mailingliste.";
+$_LANG['manageSubscription'] = "Administrer abonnement";
 
 $_LANG['erroroccured'] = "Der opstod en fejl";
 $_LANG['pwresetsuccessdesc'] = "Din adgangskode er nu blevet nulstillet. %sKlik her%s for at fortsætte til kundecenteret&hellip;";
@@ -1478,14 +1478,14 @@ $_LANG['twofaactivationerror'] = "Der skete en fejl under forsøget på at aktiv
 $_LANG['twofamoduleerror'] = "Der skete en fejl ved indlæsning af modulet. Prøv venligst igen.";
 $_LANG['twofadisableconfirmation'] = "To-faktor autentificering er nu blevet slået fra for din konto.";
 $_LANG['twofabackupcode'] = "Backup Code";
-$_LANG['twofabackupcodeintro'] = "The backup code is needed to access your account in the event you cannot complete two-factor authentication.";
+$_LANG['twofabackupcodeintro'] = "Backup-koden er nødvendig for at få adgang til din konto, hvis du ikke kan fuldføre tofaktorautentificering.";
 $_LANG['twofabackupcodeis'] = "Din backup kode er";
 $_LANG['twofanewbackupcodeis'] = "Din nye backup kode er";
 $_LANG['twofabackupcodelogin'] = "Indtast din backup kode ovenfor for at logge ind";
 $_LANG['twofabackupcodeexpl'] = "Skriv dette ned på et papir og opbevar det sikkert.<br />Du skal bruge det, hvis du mister din 2. faktor enhed, eller den ikke er tilgængelig.";
 $_LANG['twofaconfirmpw'] = "Indtast din adgangskode";
 $_LANG['twofa2ndfactorreq'] = "Din 2. faktor er nødvendig for at gennemføre login.";
-$_LANG['twofa2ndfactorincorrect'] = "The second factor you supplied was incorrect. Please try again. You have :attempts attempts remaining.";
+$_LANG['twofa2ndfactorincorrect'] = "Den anden faktor, du angav, var forkert. Prøv igen. Du har: resterende forsøg.";
 $_LANG['twofabackupcodereset'] = "Log ind med backup kode lykkedes<br />Backup koder er kun gyldige én gang. Den vil nu blive nulstillet.";
 $_LANG['twofacantaccess2ndfactor'] = "Kan ikke få adgang til din 2. faktor enhed?";
 $_LANG['twofaloginusingbackupcode'] = "Log ind med backup kode";
@@ -1502,10 +1502,10 @@ $_LANG['quoteacceptancewarning'] = "Vær opmærksom på at accept af et tilbud, 
 
 $_LANG['contactform'] = "Kontakt formular";
 
-$_LANG['twoipconnect'] = "Connect your app";
-$_LANG['twoipinstruct'] = "Using an authenticator app like %s or %s, scan the QR code below. Having trouble scanning the code? Enter the code manually:";
-$_LANG['twoipverificationstepmsg'] = "Enter the 6-digit code that the application generates to verify and complete setup.";
-$_LANG['twoipenterauth'] = "Enter authentication code";
+$_LANG['twoipconnect'] = "Tilslut din app";
+$_LANG['twoipinstruct'] = "Brug en godkendelsesapp som %s eller %s til at scanne QR-koden nedenfor. Har du problemer med at scanne koden? Indtast koden manuelt:";
+$_LANG['twoipverificationstepmsg'] = "Indtast den 6-cifrede kode, som applikationen genererer for at kontrollere og fuldføre opsætningen.";
+$_LANG['twoipenterauth'] = "Indtast godkendelseskode";
 $_LANG['twoipgoogleauth'] = "Google Authenticator";
 $_LANG['twoipduo'] = "Duo";
 $_LANG['twoipcodemissmatch'] = "Den indtastede kode, er forkert. Prøv venligst igen.";
@@ -1561,8 +1561,8 @@ $_LANG['maxmind_checkconfiguration'] = "Der opstod en fejl ved bedrageri kontrol
 $_LANG['maxmind_addressinvalid'] = "Din adresse blev ikke genkendt. Tjek efter om du har skrevet den rigtigt.";
 $_LANG['maxmind_invalidip'] = "IP adressen er ugyldig eller en lokal IP. Kontakt support";
 
-$_LANG['ssounabletologin'] = "Unable to auto-login. Please contact support.";
-$_LANG['ssofatalerror'] = "A fatal error occurred. Please contact support.";
+$_LANG['ssounabletologin'] = "Kan ikke automatisk logge ind. Kontakt support.";
+$_LANG['ssofatalerror'] = "Der opstod en alvorlig fejl. Kontakt support.";
 
 # Version 6.0
 
@@ -1758,7 +1758,7 @@ $_LANG['directDebitSubmit'] = "Indsend";
 $_LANG['directDebitChecking'] = "Kontrol";
 $_LANG['directDebitSavings'] = "Opsparing";
 
-$_LANG['outOfStockProductRemoved'] = "An out of stock product was automatically removed from the cart";
+$_LANG['outOfStockProductRemoved'] = "Et udsolgt produkt blev automatisk fjernet fra vognen";
 
 $_LANG['subaccountpermsquotes'] = "Se og accepter tilbud";
 
@@ -1800,7 +1800,7 @@ $_LANG['clientHomePanels']['affiliateSummaryWithdrawalReady'] = "Din aktuelle ko
 $_LANG['clientHomePanels']['productsAndServices'] = "Browse our Products/Services";
 
 $_LANG['upgradeNotPossible'] = "Opgradering af dette produkt er ikke mulig.  Hvis du mener, du har nået denne side ved en fejl, bedes du underrette vores supportafdeling. Ellers skal du gå tilbage og dobbelttjekke dine valg.";
-$_LANG['upgradeSameProductMustExtendCycle'] = "To upgrade your billing cycle, please choose a cycle that is greater than your current billing cycle.";
+$_LANG['upgradeSameProductMustExtendCycle'] = "For at opgradere din faktureringscyklus skal du vælge en cyklus, der er større end din nuværende faktureringscyklus.";
 
 $_LANG['hostingInfo'] = "Hosting information";
 $_LANG['additionalInfo'] = "Yderligere information";
@@ -2013,19 +2013,19 @@ $_LANG['orderForm']['includedWithPlans'] = "Inkluderet i alle pakker";
 $_LANG['orderForm']['whatIsIncluded'] = "Hvad er inkluderet?";
 $_LANG['orderForm']['errorNoProductGroup'] = "Kunne ikke indlæse nogle produktgrupper.";
 $_LANG['orderForm']['errorNoProducts'] = "Produktgruppen indeholder ingen synlige produkter";
-$_LANG['orderForm']['errorNoGateways'] = "No payment gateways available so order cannot proceed";
-$_LANG['orderForm']['errorUnavailableGateway'] = "The selected gateway is not available. Please choose an option from the Payment Details section.";
+$_LANG['orderForm']['errorNoGateways'] = "Ingen betalingsgateways tilgængelige, så ordren kan ikke fortsætte";
+$_LANG['orderForm']['errorUnavailableGateway'] = "Den valgte gateway er ikke tilgængelig. Vælg en mulighed i afsnittet Betalingsoplysninger.";
 $_LANG['orderForm']['requiredField'] = "(required fields are marked with *)";
 
 $_LANG['cloudSlider']['feature01Title'] = "Maximum Server Uptime";
-$_LANG['cloudSlider']['feature01Description'] = "Server uptime is critical for all businesses - consider it the heart beat of hosting your business. File and databases servers, email and web servers are an indispensable part of most business processes, and downtimes have direct negative effects on productivity, sales, employee and customer satisfaction. That's why ensuring the maximum server uptime is so important to us - we want to make sure your business processes are running healthy so your customers are happy.";
-$_LANG['cloudSlider']['feature01DescriptionTwo'] = "By trusting us with your business needs, we promise you a 99.9% uptime on any services we provide, outside of any standard maintenance we may provide.";
-$_LANG['cloudSlider']['feature02Title'] = "World Wide Data Delivery";
-$_LANG['cloudSlider']['feature02Description'] = "Our services are powered by hundreds of servers and data centers located all over the world, so you can rest easy knowing that customers can access your website from anywhere. In addition, we provide monitoring tools to provide you with expert analytics - website traffic is an important step in improving your site's efficiency and popularity, as well as keeping track of where your visitors are coming from, what time of day they're visiting you, and how long they're staying. Our dedication to a global marketplace extends to domain registrations, as we offer the most popular TLD's for registration.";
-$_LANG['cloudSlider']['feature02DescriptionTwo'] = "Our dedication to customer support reaches across the globe as well. We are here to help you with your hosting in any way possible, and you can reach us via phone, email, or live chat.";
-$_LANG['cloudSlider']['feature03Title'] = "Top Tier Security";
-$_LANG['cloudSlider']['feature03Description'] = "Rest easy knowing that we provide 24/7 security monitoring and DDoS protection. You take protecting your customer's data seriously, and so do we. Our security team and safeguards are on the job all day, every day to provide the level of security needed in today's digital age.";
-$_LANG['cloudSlider']['feature03DescriptionTwo'] = "A wide range of security tools are at your disposal, including SSL certificates, firewall configuration, security monitoring services, VPN access, and more.";
+$_LANG['cloudSlider']['feature01Description'] = "Server oppetid er kritisk for alle virksomheder - betragt det som hjerteslaget for at være vært for din virksomhed. Fil- og databaseservere, e-mail og webservere er en uundværlig del af de fleste forretningsprocesser, og nedetid har direkte negative virkninger på produktivitet, salg, medarbejder- og kundetilfredshed. Derfor er det så vigtigt for os at sikre den maksimale server oppetid - vi ønsker at sikre, at dine forretningsprocesser kører sunde, så dine kunder er glade.";
+$_LANG['cloudSlider']['feature01DescriptionTwo'] = "Ved at stole på os med dine forretningsbehov, lover vi dig en oppetid på 99,9% på alle tjenester, vi leverer, uden for enhver standardvedligeholdelse, vi måtte levere.";
+$_LANG['cloudSlider']['feature02Title'] = "Verdensomspændende datalevering";
+$_LANG['cloudSlider']['feature02Description'] = "Vores tjenester drives af hundredvis af servere og datacentre placeret over hele verden, så du kan være let at vide, at kunderne kan få adgang til dit websted hvor som helst. Derudover leverer vi overvågningsværktøjer til at give dig ekspertanalyser - webstedstrafik er et vigtigt skridt i at forbedre dit websteds effektivitet og popularitet samt holde styr på, hvor dine besøgende kommer fra, hvilket tidspunkt på dagen de besøger dig og hvor længe de bliver der. Vores dedikation til et globalt marked omfatter domæneregistreringer, da vi tilbyder de mest populære TLD'er til registrering.";
+$_LANG['cloudSlider']['feature02DescriptionTwo'] = "Vores dedikation til kundesupport når også over hele kloden. Vi er her for at hjælpe dig med din hosting på enhver mulig måde, og du kan nå os via telefon, e-mail eller live chat.";
+$_LANG['cloudSlider']['feature03Title'] = "Topsikkerhed";
+$_LANG['cloudSlider']['feature03Description'] = "Vær let at vide, at vi tilbyder 24/7 sikkerhedsovervågning og DDoS-beskyttelse. Du tager beskyttelsen af ​​dine kunders data alvorligt, og det gør vi også. Vores sikkerhedsteam og beskyttelsesforanstaltninger er på jobbet hele dagen, hver dag for at give det nødvendige sikkerhedsniveau i dagens digitale tidsalder.";
+$_LANG['cloudSlider']['feature03DescriptionTwo'] = "En bred vifte af sikkerhedsværktøjer er til din rådighed, herunder SSL-certifikater, firewall-konfiguration, sikkerhedskontroltjenester, VPN-adgang og mere.";
 $_LANG['cloudSlider']['selectProductLevel'] = "Vælg det perfekte niveau for dig!";
 
 $_LANG['domainChecker.additionalPricingOptions'] = "Yderligere pris valg For :domain";
@@ -2147,23 +2147,23 @@ $_LANG['orderForm']['domainPriceTransferLabel'] = "Overfør til os og forlæng m
 
 $_LANG['change'] = "Skift";
 
-$_LANG['filemanagement']['nofileuploaded'] = "No file uploaded.";
-$_LANG['filemanagement']['invalidname'] = "Valid filenames contain only alpha-numeric, dot, hyphen and underscore characters.";
-$_LANG['filemanagement']['couldNotSaveFile'] = "Could not save uploaded file.";
-$_LANG['filemanagement']['checkPermissions'] = "Please check permissions.";
-$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Please check available disk space.";
-$_LANG['filemanagement']['fileAlreadyExists'] = "File already exists.";
-$_LANG['filemanagement']['noUniqueName'] = "Unable to find a unique filename.";
+$_LANG['filemanagement']['nofileuploaded'] = "Ingen fil uploadet.";
+$_LANG['filemanagement']['invalidname'] = "Gyldige filnavne indeholder kun alfanumeriske tegn, prik, bindestreg og understregningstegn.";
+$_LANG['filemanagement']['couldNotSaveFile'] = "Kunne ikke gemme den uploadede fil.";
+$_LANG['filemanagement']['checkPermissions'] = "Kontroller tilladelserne.";
+$_LANG['filemanagement']['checkAvailableDiskSpace'] = "Kontroller ledig diskplads.";
+$_LANG['filemanagement']['fileAlreadyExists'] = "Filen findes allerede.";
+$_LANG['filemanagement']['noUniqueName'] = "Kunne ikke finde et unikt filnavn.";
 
 $_LANG['cartSimpleCaptcha'] = "Indtast den kode vist nedenfor";
 
-$_LANG['clientHomePanels']['showingRecent100'] = "Showing the most recent 100 records";
-$_LANG['orderForm']['domainLetterOrNumber'] = "Domains must begin with a letter or a number";
-$_LANG['orderForm']['domainLengthRequirements'] = " and be between <span class=\"min-length\"></span> and <span class=\"max-length\"></span> characters in length";
+$_LANG['clientHomePanels']['showingRecent100'] = "Viser de seneste 100 poster";
+$_LANG['orderForm']['domainLetterOrNumber'] = "Domæner skal begynde med et bogstav eller et tal";
+$_LANG['orderForm']['domainLengthRequirements'] = " og være imellem <span class=\"min-length\"></span> og <span class=\"max-length\"></span> tegn i længden";
 
-$_LANG['clientareatransferredaway'] = "Transferred Away";
-$_LANG['clientareacompleted'] = "Completed";
-$_LANG['domainContactUs'] = "Contact Us";
+$_LANG['clientareatransferredaway'] = "Overført væk";
+$_LANG['clientareacompleted'] = "Afsluttet";
+$_LANG['domainContactUs'] = "Kontakt os";
 
 $_LANG['orderForm']['shortPerYear'] = "/:yearsyr";
 $_LANG['orderForm']['shortPerYears'] = "/:yearsyrs";
@@ -2172,59 +2172,59 @@ $_LANG['domainCheckerSalesGroup']['sale'] = "Sale";
 $_LANG['domainCheckerSalesGroup']['hot'] = "Hot";
 $_LANG['domainCheckerSalesGroup']['new'] = "New";
 
-$_LANG['pricing']['browseExtByCategory'] = "Browse extensions by category";
-$_LANG['pricing']['register'] = "New Price";
-$_LANG['pricing']['transfer'] = "Transfer";
-$_LANG['pricing']['renewal'] = "Renewal";
-$_LANG['pricing']['selectExtCategory'] = "Please choose a category from above.";
-$_LANG['pricing']['noExtensionsDefined'] = "No extensions available";
+$_LANG['pricing']['browseExtByCategory'] = "Gennemse udvidelser efter kategori";
+$_LANG['pricing']['register'] = "Ny pris";
+$_LANG['pricing']['transfer'] = "Overfør";
+$_LANG['pricing']['renewal'] = "Fornyelse";
+$_LANG['pricing']['selectExtCategory'] = "Vælg en kategori ovenfra.";
+$_LANG['pricing']['noExtensionsDefined'] = "Ingen udvidelser tilgængelige";
 
-$_LANG['navStore'] = "Store";
-$_LANG['navBrowseProductsServices'] = "Browse All";
+$_LANG['navStore'] = "Butik";
+$_LANG['navBrowseProductsServices'] = "Gennemse alle";
 
-$_LANG['navWebsiteSecurity'] = "Website & Security";
+$_LANG['navWebsiteSecurity'] = "Hjemmeside og sikkerhed";
 $_LANG['navMarketConnectService']['symantec'] = "SSL Certificates";
-$_LANG['navMarketConnectService']['weebly'] = "Website Builder";
-$_LANG['navMarketConnectService']['spamexperts'] = "E-mail Services";
+$_LANG['navMarketConnectService']['weebly'] = "Webstedsbygger";
+$_LANG['navMarketConnectService']['spamexperts'] = "E-mail tjenester";
 
-$_LANG['store']['emailServices']['title'] = "E-mail Services";
+$_LANG['store']['emailServices']['title'] = "E-mail tjenester";
 $_LANG['store']['ssl']['title'] = "SSL Certificates";
 $_LANG['store']['ssl']['dv']['title'] = "Domain Validated SSL";
 $_LANG['store']['ssl']['ov']['title'] = "Organization Validation SSL";
 $_LANG['store']['ssl']['ev']['title'] = "Extended Validation SSL";
 $_LANG['store']['ssl']['wildcard']['title'] = "Wildcard SSL";
-$_LANG['store']['websiteBuilder']['title'] = "Website Builder";
-$_LANG['store']['configure']['configureProduct'] = "Configure Product";
+$_LANG['store']['websiteBuilder']['title'] = "Webstedsbygger";
+$_LANG['store']['configure']['configureProduct'] = "Konfigurer produkt";
 
-$_LANG['store']['ssl']['dv']['tagline'] = "Secure your website in just a few minutes!";
-$_LANG['store']['ssl']['dv']['descriptionTitle'] = "What is Standard DV SSL?";
-$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domain Validation certificates offer an economical and quick way to implement SSL to your website. Domain Validated certificates verify you own the domain, but do not perform any additional organization level validation.</p><p>Domain Validated certificates are ideal for personal websites, blogs and social media, or any sites that are not transmitting private and confidential information.  A Domain Validated certificate activates the browser padlock and enables the use of https to assure your website visitors and customers that you take their privacy seriously.</p>";
+$_LANG['store']['ssl']['dv']['tagline'] = "Beskyt dit websted på få minutter!";
+$_LANG['store']['ssl']['dv']['descriptionTitle'] = "Hvad er standard DV SSL?";
+$_LANG['store']['ssl']['dv']['descriptionContent'] = "<p>Domænevalideringscertifikater tilbyder en økonomisk og hurtig måde at implementere SSL på dit websted. Domæne validerede certifikater bekræfter, at du ejer domænet, men udfører ikke yderligere validering af organisationsniveau.</p><p>Domæne validerede certifikater er ideelle til personlige websteder, blogs og sociale medier eller ethvert websted, der ikke transmitterer private og fortrolige oplysninger. Et domænevalideret certifikat aktiverer browserens hængelås og muliggør brugen af ​​https for at sikre dine besøgende og kunder, at du tager deres privatliv alvorligt.</p>";
 
-$_LANG['store']['ssl']['ov']['tagline'] = "High assurance SSL shows website visitors your authenticated identity";
-$_LANG['store']['ssl']['ov']['descriptionTitle'] = "What is Organization Validation SSL?";
-$_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organization Validated SSL Certificates provide instant identity confirmation and strong SSL protection for your website and business.</p><p>OV SSL is an organization validated certificate that gives your website a step up in credibility over domain validated SSL Certificates. It activates the browser padlock and https, shows your corporate identity, and assures your customers that you take security very seriously. Site visitors can verify that the website is operated by a legitimate company and is not an imposter site.</p>";
+$_LANG['store']['ssl']['ov']['tagline'] = "SSL med høj sikkerhed viser webstedsbesøgende din godkendte identitet";
+$_LANG['store']['ssl']['ov']['descriptionTitle'] = "Hvad er organisationsvalidering SSL?";
+$_LANG['store']['ssl']['ov']['descriptionContent'] = "<p>Organisationsvaliderede SSL-certifikater giver øjeblikkelig identitetsbekræftelse og stærk SSL-beskyttelse for dit websted og din virksomhed.</p><p>OV SSL er et organisationsvalideret certifikat, der giver dit websted et trin op i troværdighed over domænevaliderede SSL-certifikater. Det aktiverer browserhængelåsen og https, viser din virksomhedsidentitet og forsikrer dine kunder om, at du tager sikkerhed meget alvorligt. Besøgende på webstedet kan kontrollere, at hjemmesiden drives af en legitim virksomhed og ikke er et bedrageri-sted.</p>";
 
-$_LANG['store']['ssl']['ev']['tagline'] = "Activate the green address bar for the highest trust and conversions";
-$_LANG['store']['ssl']['ev']['descriptionTitle'] = "What is Extended Validation SSL?";
-$_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL is an Extended Validation Certificate, the highest class of SSL available today and gives more credibility and trust to your website compared to using an organization or domain validated SSL Certificate.</p><p>Extended Validation SSL will in most cases display your company or site name in green. This prominent visual verification provides visitors added confidence that steps were taken to confirm the identity of the website and business they're visiting, increasing user trust in your website and its credibility – this is why most large companies and organizations choose EV certificates.</p>";
+$_LANG['store']['ssl']['ev']['tagline'] = "Aktivér den grønne adresselinje for den højeste tillid og konvertering";
+$_LANG['store']['ssl']['ev']['descriptionTitle'] = "Hvad er SSL med udvidet validering?";
+$_LANG['store']['ssl']['ev']['descriptionContent'] = "<p>EV SSL er et udvidet valideringscertifikat, den højeste klasse af SSL, der er tilgængelig i dag, og giver mere troværdighed og tillid til dit websted sammenlignet med at bruge en organisation eller et domænevalideret SSL-certifikat. </p><p> Udvidet validering SSL vises i de fleste tilfælde dit firmanavns eller webstedsnavn i grønt. Denne fremtrædende visuelle verifikation giver de besøgende ekstra tillid til, at der blev taget skridt til at bekræfte identiteten på det websted og den virksomhed, de besøger, hvilket øger brugernes tillid til dit websted og dets troværdighed - det er derfor, de fleste store virksomheder og organisationer vælger EV-certifikater.</p>";
 
-$_LANG['store']['ssl']['wildcard']['tagline'] = "Secure unlimited subdomains on a single certificate.";
-$_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "What is a Wildcard SSL Certificate?";
-$_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL allows you to secure an unlimited number of subdomains on a single certificate. It’s a great solution for anyone who hosts or manages multiple sites or pages that exist on the same domain. The one-time cost of the certificate covers you for additional subdomains you may add in the future.</p><p>Unlike a standard SSL Certificate that is issued to a single Fully Qualified Domain Name only, e.g. www.yourdomain.com, which means it can only be used to secure the exact domain to which it has been issued, a Wildcard SSL Certificate is issued to *.yourdomain.com, where the asterisk represents all possible subdomains.</p><p>Wildcard SSL is an option available for DV and OV SSL Certificates.</p>";
+$_LANG['store']['ssl']['wildcard']['tagline'] = "Sikre ubegrænsede underdomæner på et enkelt certifikat.";
+$_LANG['store']['ssl']['wildcard']['descriptionTitle'] = "Hvad er et Wildcard SSL-certifikat?";
+$_LANG['store']['ssl']['wildcard']['descriptionContent'] = "<p>Wildcard SSL giver dig mulighed for at sikre et ubegrænset antal underdomæner på et enkelt certifikat. Det er en fantastisk løsning for alle, der er vært for eller administrerer flere sider eller sider, der findes på det samme domæne. Engangsomkostningerne ved certifikatet dækker dig for yderligere underdomæner, du kan tilføje i fremtiden. </p> <p> I modsætning til et standard SSL-certifikat, der kun udstedes til et enkelt fuldt kvalificeret domænenavn, f.eks. www.yourdomain.com, hvilket betyder, at det kun kan bruges til at sikre det nøjagtige domæne, som det er udstedt til, udstedes et Wildcard SSL-certifikat til * .yourdomain.com, hvor stjernen repræsenterer alle mulige underdomæner. </p><p> Wildcard SSL er en mulighed, der er tilgængelig for DV- og OV SSL-certifikater.</p>";
 
-$_LANG['store']['websiteBuilder']['headline'] = "Building a Website Has Never Been Easier";
-$_LANG['store']['websiteBuilder']['tagline'] = "Create the perfect site with powerful drag and drop tools";
-$_LANG['store']['websiteBuilder']['introduction'] = "Weebly’s drag and drop website builder makes it easy to create a powerful, professional website without any technical skills. Over 40 million entrepreneurs and small businesses have already used Weebly to build their online presence with a website, blog or store.";
+$_LANG['store']['websiteBuilder']['headline'] = "Opbygning af et websted har aldrig været nemmere";
+$_LANG['store']['websiteBuilder']['tagline'] = "Opret det perfekte sted med kraftige træk og slip-værktøjer";
+$_LANG['store']['websiteBuilder']['introduction'] = "Weeblys træk og slip-webstedsbygger gør det nemt at oprette en stærk, professionel hjemmeside uden tekniske færdigheder. Over 40 millioner iværksættere og små virksomheder har allerede brugt Weebly til at opbygge deres online tilstedeværelse med et websted, en blog eller en butik.";
 
-$_LANG['store']['emailServices']['headline'] = "Email Security, Built for You";
-$_LANG['store']['emailServices']['tagline'] = "Take back control of your inbox";
-$_LANG['store']['emailServices']['blockSpamHeadline'] = "Block nearly 100% of viruses, malware and spam before they ever reach your inbox";
+$_LANG['store']['emailServices']['headline'] = "E-mail-sikkerhed, bygget til dig";
+$_LANG['store']['emailServices']['tagline'] = "Tag kontrol over din indbakke igen";
+$_LANG['store']['emailServices']['blockSpamHeadline'] = "Bloker næsten 100% af vira, malware og spam, før de nogensinde når din indbakke";
 
-$_LANG['store']['sitelock']['features']['malwareScanning'] = "Daily Malware Scanning";
-$_LANG['store']['sitelock']['features']['numberOfPages'] = "Number of Pages";
-$_LANG['store']['sitelock']['features']['dailyBlacklistMonitoring'] = "Daily Blacklist Monitoring";
-$_LANG['store']['sitelock']['features']['sitelockRiskScore'] = "SiteLock Risk Score";
-$_LANG['store']['sitelock']['features']['websiteAppScan'] = "Website Application Scan";
+$_LANG['store']['sitelock']['features']['malwareScanning'] = "Daglig malware-scanning";
+$_LANG['store']['sitelock']['features']['numberOfPages'] = "Antal sider";
+$_LANG['store']['sitelock']['features']['dailyBlacklistMonitoring'] = "Daglig sortlisteovervågning";
+$_LANG['store']['sitelock']['features']['sitelockRiskScore'] = "SiteLock-risikoscore";
+$_LANG['store']['sitelock']['features']['websiteAppScan'] = "Scanning af webstedsapplikation";
 $_LANG['store']['sitelock']['features']['sqlInjectionScan'] = "SQL Injection Scan";
 $_LANG['store']['sitelock']['features']['xssScan'] = "Cross Site (XSS) Scan";
 $_LANG['store']['sitelock']['features']['trustSeal'] = "Sitelock&trade; Trust Seal";
@@ -2250,40 +2250,40 @@ $_LANG['pricingCycleLong']['annually'] = "1 Year";
 $_LANG['pricingCycleLong']['biennially'] = "2 Years";
 $_LANG['pricingCycleLong']['triennially'] = "3 Years";
 
-$_LANG['navManageSsl'] = "Manage SSL Certificates";
+$_LANG['navManageSsl'] = "Administrer SSL-certifikater";
 
-$_LANG['invoicesPaymentPending'] = "Payment Pending";
+$_LANG['invoicesPaymentPending'] = "Betaling venter";
 
-$_LANG['ssl']['changeApproverEmail'] = "Change Approver Email";
-$_LANG['ssl']['reissueCertificate'] = "Reissue Certificate";
-$_LANG['ssl']['retrieveCertificate'] = "Retrieve Certificate";
+$_LANG['ssl']['changeApproverEmail'] = "Skift godkender-e-mail";
+$_LANG['ssl']['reissueCertificate'] = "Genudsted certifikat";
+$_LANG['ssl']['retrieveCertificate'] = "Hent certifikat";
 
-$_LANG['upgradeCredit'] = "Upgrade Credit";
-$_LANG['upgradeCreditDescription'] = "Calculation based on :daysRemaining unused days of :totalDays totals days in the current billing cycle.";
+$_LANG['upgradeCredit'] = "Opgrader kredit";
+$_LANG['upgradeCreditDescription'] = "Beregning baseret på: dage Resterende ubrugte dage på :totalDays udgør dage i den aktuelle faktureringscyklus.";
 
-$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Your domain is not supported for transfer to us at this time. Please try another domain.";
-$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Your domain is not eligible for transfer to us. Please try another domain.";
+$_LANG['orderForm']['domainExtensionTransferNotSupported'] = "Dit domæne understøttes ikke til overførsel til os på nuværende tidspunkt. Prøv et andet domæne.";
+$_LANG['orderForm']['domainExtensionTransferPricingNotConfigured'] = "Dit domæne er ikke berettiget til overførsel til os. Prøv et andet domæne.";
 
-$_LANG['remoteAuthn']['success'] = "Success!";
-$_LANG['remoteAuthn']['errorExclamation'] = "Error!";
-$_LANG['remoteAuthn']['error'] = "Error";
+$_LANG['remoteAuthn']['success'] = "Succes!";
+$_LANG['remoteAuthn']['errorExclamation'] = "Fejl!";
+$_LANG['remoteAuthn']['error'] = "Fejl";
 $_LANG['remoteAuthn']['linkInitiated'] = "Link Initiated!";
 $_LANG['remoteAuthn']['areYouSure'] = "Are you sure?";
 $_LANG['remoteAuthn']['yesUnlinkIt'] = "Yes, unlink it!";
 $_LANG['remoteAuthn']['unlinked'] = "Unlinked!";
-$_LANG['remoteAuthn']['unavailable'] = "is unavailable at this time. Please try again later.";
-$_LANG['remoteAuthn']['connectError'] = "We were unable to connect your account. Please contact your system administrator.";
-$_LANG['remoteAuthn']['completeSignIn'] = "Please complete sign in with your chosen service provider.";
-$_LANG['remoteAuthn']['redirecting'] = "Automatic sign-in was successful! Redirecting..";
-$_LANG['remoteAuthn']['accountNowLinked'] = "Your account is now linked with your :displayName account.";
-$_LANG['remoteAuthn']['oneTimeAuthRequired'] = "One time sign in required to associate your existing account.";
-$_LANG['remoteAuthn']['completeRegistrationForm'] = "Please complete the registration form below.";
-$_LANG['remoteAuthn']['completeNewAccountForm'] = "Please complete your new account information.";
-$_LANG['remoteAuthn']['linkedToAnotherClient'] = "This account is already connected to an existing account with us. Please choose a different account at the third party authentication provider.";
-$_LANG['remoteAuthn']['alreadyLinkedToYou'] = "This account is already connected to your account with us. Please choose a different account at the third party authentication provider.";
-$_LANG['remoteAuthn']['saveTimeByLinking'] = "Save time by signing up using an existing account with any of the services below.";
-$_LANG['remoteAuthn']['unlinkDesc'] = "This permanently unlinks the authorized account.";
-$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = "Connect your account with any of the services below to simplify your sign-in experience. We only use this information to verify your account and will never post on your behalf.";
+$_LANG['remoteAuthn']['unavailable'] = "er ikke tilgængelig på dette tidspunkt. Prøv igen senere.";
+$_LANG['remoteAuthn']['connectError'] = "Vi kunne ikke oprette forbindelse til din konto. Kontakt din systemadministrator.";
+$_LANG['remoteAuthn']['completeSignIn'] = "Udfyld venligst logon med din valgte tjenesteudbyder.";
+$_LANG['remoteAuthn']['redirecting'] = "Automatisk login var vellykket! Omdirigerer ..";
+$_LANG['remoteAuthn']['accountNowLinked'] = "Din konto er nu knyttet til din :displayName bruger.";
+$_LANG['remoteAuthn']['oneTimeAuthRequired'] = "Én gangs logon kræves for at knytte din eksisterende konto.";
+$_LANG['remoteAuthn']['completeRegistrationForm'] = "Udfyld tilmeldingsformularen nedenfor.";
+$_LANG['remoteAuthn']['completeNewAccountForm'] = "Udfyld dine nye kontooplysninger.";
+$_LANG['remoteAuthn']['linkedToAnotherClient'] = "Denne konto er allerede forbundet til en eksisterende konto hos os. Vælg en anden konto hos tredjepartsgodkendelsesudbyderen.";
+$_LANG['remoteAuthn']['alreadyLinkedToYou'] = "Denne konto er allerede forbundet med din konto hos os. Vælg en anden konto hos tredjepartsgodkendelsesudbyderen.";
+$_LANG['remoteAuthn']['saveTimeByLinking'] = "Spar tid ved at tilmelde dig ved hjælp af en eksisterende konto med en af ​​nedenstående tjenester.";
+$_LANG['remoteAuthn']['unlinkDesc'] = "Dette fjerner permanent den autoriserede konto.";
+$_LANG['remoteAuthn']['mayHaveMultipleLinks'] = "Forbind din konto med en af ​​nedenstående tjenester for at forenkle din login-oplevelse. Vi bruger kun disse oplysninger til at bekræfte din konto og vil aldrig skrive på dine vegne.";
 $_LANG['remoteAuthn']['titleSignUpVerb'] = "Sign Up";
 $_LANG['remoteAuthn']['titleOr'] = "Or";
 $_LANG['remoteAuthn']['titleLinkedAccounts'] = "Linked Accounts";
@@ -2291,33 +2291,33 @@ $_LANG['remoteAuthn']['provider'] = "Provider";
 $_LANG['remoteAuthn']['name'] = "Name";
 $_LANG['remoteAuthn']['emailAddress'] = "Email Address";
 $_LANG['remoteAuthn']['actions'] = "Actions";
-$_LANG['remoteAuthn']['noLinkedAccounts'] = "No linked accounts found";
-$_LANG['remoteAuthn']['signInWith'] = "Sign in with :provider";
-$_LANG['remoteAuthn']['connectWith'] = "Connect with :provider";
-$_LANG['remoteAuthn']['signUpWith'] = "Sign Up with :provider";
+$_LANG['remoteAuthn']['noLinkedAccounts'] = "E-mail Addre Ingen tilknyttede kontofundtess";
+$_LANG['remoteAuthn']['signInWith'] = "Log ind med :provider";
+$_LANG['remoteAuthn']['connectWith'] = "Forbinde med :provider";
+$_LANG['remoteAuthn']['signUpWith'] = "Tilmeld dig med :provider";
 
 $_LANG['unlink'] = "Unlink";
 
-$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Thank you for completing the payment process. We are awaiting notification to confirm the payment you just made. We will send you an email confirmation as soon as this has been received.";
+$_LANG['invoicePaymentSuccessAwaitingNotify'] = "Tak, fordi du har gennemført betalingsprocessen. Vi afventer underretning for at bekræfte den betaling, du lige har foretaget. Vi sender dig en e-mail-bekræftelse, så snart denne er modtaget.";
 
 $_LANG['errorPage']['404']['title'] = "Oops!";
-$_LANG['errorPage']['404']['subtitle'] = "We couldn't find that page";
-$_LANG['errorPage']['404']['description'] = "Please try navigating using the options below.";
+$_LANG['errorPage']['404']['subtitle'] = "Vi kunne ikke finde den side";
+$_LANG['errorPage']['404']['description'] = "Prøv at navigere ved hjælp af nedenstående muligheder.";
 $_LANG['errorPage']['404']['home'] = "Homepage";
-$_LANG['errorPage']['404']['submitTicket'] = "Contact Support";
+$_LANG['errorPage']['404']['submitTicket'] = "Kontakt support";
 
-$_LANG['creditCard']['removeDescription'] = "Are you sure you wish to remove your credit card details?";
+$_LANG['creditCard']['removeDescription'] = "Er du sikker på, at du vil fjerne dine kreditkortoplysninger?";
 
 $_LANG['marketConnect']['weebly']['ftpHost'] = "FTP Host";
-$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Username";
-$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Password";
+$_LANG['marketConnect']['weebly']['ftpUsername'] = "FTP Brugernavn";
+$_LANG['marketConnect']['weebly']['ftpPassword'] = "FTP Adgangskode";
 $_LANG['marketConnect']['weebly']['ftpPath'] = "FTP Path";
-$_LANG['marketConnect']['weebly']['updateFtp'] = "Update FTP Credentials";
+$_LANG['marketConnect']['weebly']['updateFtp'] = "Opdater FTP-legitimationsoplysninger";
 $_LANG['marketConnect']['weebly']['manage'] = "Login to Weebly";
 
-$_LANG['domainChecker']['contactSupport'] = "Contact Support to Purchase";
+$_LANG['domainChecker']['contactSupport'] = "Kontakt support for at købe";
 
-$_LANG['cart']['availableCreditBalance'] = "Your available credit balance is :amount.";
+$_LANG['cart']['availableCreditBalance'] = "Din tilgængelige kreditbalance er :amount.";
 $_LANG['cart']['applyCreditAmount'] = "Apply <span>:amount</span> from my credit balance to this order and I will pay the remaining amount via the payment method selected below.";
 $_LANG['cart']['applyCreditAmountNoFurtherPayment'] = "Apply <span>:amount</span> from my credit balance to this order. No further payment will be due.";
 $_LANG['cart']['applyCreditSkip'] = "Do not apply any credit from my credit balance to this order. I will pay for it using the payment method selected below.";
@@ -2375,44 +2375,44 @@ $_LANG['dateTime']['hours'] = "Hours";
 $_LANG['dateTime']['minute'] = "Minute";
 $_LANG['dateTime']['minutes'] = "Minutes";
 
-$_LANG['emailMarketing']['joinOurMailingList'] = "Join our mailing list";
+$_LANG['emailMarketing']['joinOurMailingList'] = "Deltag i vores nyhedsbrev";
 
-$_LANG['edit'] = "Edit";
+$_LANG['edit'] = "Rediger";
 $_LANG['thankYou'] = "Thank You";
 $_LANG['na'] = "N/A";
 
-$_LANG['domainGracePeriodFeeInvoiceItem'] = "Domain Renewal Fee in Grace Period for :domainName";
-$_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Domain Renewal Fee in Redemption Grace Period for :domainName";
-$_LANG['gracePeriod'] = "Grace Period";
-$_LANG['redemptionPeriod'] = "Redemption Period";
-$_LANG['domainsExpiringSoon'] = "Expiring Soon";
-$_LANG['expiresToday'] = "Expires Today";
-$_LANG['clientareagrace'] = "Grace Period (Expired)";
-$_LANG['clientarearedemption'] = "Redemption Period (Expired)";
-$_LANG['domainRenewal']['availablePeriods'] = "Available Renewal Periods";
-$_LANG['domainRenewal']['unavailable'] = "Domain Renewal Unavailable";
-$_LANG['domainRenewal']['renewingDomains'] = "Renew Your Domains";
-$_LANG['domainRenewal']['graceFee'] = "Grace Period Fee";
-$_LANG['domainRenewal']['redemptionFee'] = "Redemption Period Fee";
-$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Domains enter the Grace Period upon expiry. Once in this status, the domain may only be renewed for a maximum of the minimum registration period term.";
-$_LANG['domainRenewal']['hasExpired'] = "This domain has expired.";
-$_LANG['domainRenewal']['expiringIn'] = "Expiring in :days days";
-$_LANG['domainRenewal']['expiredDaysAgo'] = "Expired :days days ago";
-$_LANG['domainRenewal']['noDomains'] = "You do not currently have any domains that are eligible for renewal";
-$_LANG['domainRenewal']['showingDomains'] = "Showing :showing of :totalCount domains";
-$_LANG['domainRenewal']['showAll'] = "Show All";
-$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maximum Advance Renewal is :days Day(s)";
+$_LANG['domainGracePeriodFeeInvoiceItem'] = "Gebyr for domænefornyelse i nådeperiode for :domainName";
+$_LANG['domainRedemptionPeriodFeeInvoiceItem'] = "Gebyr for fornyelse af domæne i indløsningsperioden for :domainName";
+$_LANG['gracePeriod'] = "Afdragsfri periode";
+$_LANG['redemptionPeriod'] = "Indløsningsperiode";
+$_LANG['domainsExpiringSoon'] = "Udløber snart";
+$_LANG['expiresToday'] = "Udløber i dag";
+$_LANG['clientareagrace'] = "Grace Periode (Udløbet)";
+$_LANG['clientarearedemption'] = "Indløsningsperiode (Udløbet)";
+$_LANG['domainRenewal']['availablePeriods'] = "Tilgængelige fornyelsesperioder";
+$_LANG['domainRenewal']['unavailable'] = "Domæne fornyelse ikke tilgængelig";
+$_LANG['domainRenewal']['renewingDomains'] = "Forny dine domæner";
+$_LANG['domainRenewal']['graceFee'] = "Grace Periode gebyr";
+$_LANG['domainRenewal']['redemptionFee'] = "Gebyr for indløsningsperiode";
+$_LANG['domainRenewal']['graceRenewalPeriodDescription'] = "Domæner går ind i Grace Perioden efter udløb. En gang i denne status kan domænet kun fornyes med et maksimum af minimumsperioden for registreringsperioden.";
+$_LANG['domainRenewal']['hasExpired'] = "Dette domæne er udløbet.";
+$_LANG['domainRenewal']['expiringIn'] = "Udløber om :days dage";
+$_LANG['domainRenewal']['expiredDaysAgo'] = "Udløbet :days dage siden";
+$_LANG['domainRenewal']['noDomains'] = "Du har i øjeblikket ikke nogen domæner, der er berettigede til fornyelse";
+$_LANG['domainRenewal']['showingDomains'] = "Viser :showing af :totalCount domæner";
+$_LANG['domainRenewal']['showAll'] = "Vis alt";
+$_LANG['domainRenewal']['maximumAdvanceRenewal'] = "Maksimal fornyelse er :days Dag(e)";
 
-$_LANG['navMarketConnectService']['sitelock'] = "Website Security";
-$_LANG['store']['sitelock']['title'] = "SiteLock Website Security";
-$_LANG['store']['sitelock']['tagline'] = "Automatically scan your website for malware and protect online reputation";
-$_LANG['store']['sitelock']['manageService'] = "Manage your SiteLock Service";
-$_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock provides a range of features designed to protect both your website and your business’ reputation.";
-$_LANG['store']['sitelock']['plansAndPricing'] = "Plans & Pricing";
+$_LANG['navMarketConnectService']['sitelock'] = "Websitesikkerhed";
+$_LANG['store']['sitelock']['title'] = "SiteLock websidesikkerhed";
+$_LANG['store']['sitelock']['tagline'] = "Scan automatisk dit websted for malware og beskyt online omdømme";
+$_LANG['store']['sitelock']['manageService'] = "Administrer din SiteLock-tjeneste";
+$_LANG['store']['sitelock']['cartShortDescription'] = "SiteLock tilbyder en række funktioner designet til at beskytte både dit websted og din virksomheds omdømme.";
+$_LANG['store']['sitelock']['plansAndPricing'] = "Planer og priser";
 $_LANG['store']['sitelock']['featuresLink'] = "Features";
 $_LANG['store']['sitelock']['websiteHacked'] = "Website Hacked?";
 $_LANG['store']['sitelock']['faq'] = "FAQ";
-$_LANG['store']['sitelock']['contentHeadline'] = "Website security & malware protection for your website";
+$_LANG['store']['sitelock']['contentHeadline'] = "Websitesikkerhed og malware-beskyttelse til dit websted";
 $_LANG['store']['sitelock']['contentBodyParagraph1'] = "SiteLock&trade;, the global leader in website security, protects your website to give you peace of mind.";
 $_LANG['store']['sitelock']['contentBodyParagraph2'] = "SiteLock's Daily Malware Scanning identifies vulnerabilities and known malicious code and automatically removes it from your website to protect your website and visitors against threats.";
 $_LANG['store']['sitelock']['contentBodyParagraph3'] = "Plus you get the SiteLock Trust Seal which builds customer confidence and is proven to increase sales and conversion rates.";
@@ -2480,27 +2480,27 @@ $_LANG['store']['sitelock']['faqFiveBody'] = "No. During a website scan, SiteLoc
 $_LANG['store']['sitelock']['faqSixTitle'] = "What is the SiteLock Trust Seal?";
 $_LANG['store']['sitelock']['faqSixBody'] = "The SiteLock Trust Seal is a widely-recognized security badge you can display on your website. It is a clear indication that your website is secure and malware-free. To add the seal to your website, simply include the code snippet that SiteLock provides in the footer area of your website.";
 
-$_LANG['learnmore'] = "Learn more";
-$_LANG['category'] = "Category";
-$_LANG['changeCurrency'] = "Change Currency";
+$_LANG['learnmore'] = "Lær mere";
+$_LANG['category'] = "Kategori";
+$_LANG['changeCurrency'] = "Skift valuta";
 
-$_LANG['store']['ssl']['competitiveUpgrade'] = "Competitive Upgrade";
-$_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "Your domain <em>:domain</em> has been successfully validated. Please choose a certificate type to continue and complete the checkout process.";
-$_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Qualified for Competitive Upgrade";
+$_LANG['store']['ssl']['competitiveUpgrade'] = "Konkurrencedygtig opgradering";
+$_LANG['store']['ssl']['competitiveUpgradeBannerMsg'] = "Dit domæne <em>:domæne</em> er blevet valideret. Vælg en certifikattype for at fortsætte og gennemføre kassen.";
+$_LANG['store']['ssl']['competitiveUpgradeQualified'] = "Kvalificeret til konkurrencedygtig opgradering";
 
-$_LANG['dismiss'] = "Dismiss";
+$_LANG['dismiss'] = "Afskedige";
 
-$_LANG['store']['emailServices']['manageService'] = "Login to SpamExperts Control Panel";
+$_LANG['store']['emailServices']['manageService'] = "Log ind på SpamExperts Kontrolpanel";
 
-$_LANG['noDomain'] = "No Domain";
+$_LANG['noDomain'] = "Intet domæne";
 
-$_LANG['upgradeService']['serviceBeingUpgraded'] = "Service being upgraded";
-$_LANG['upgradeService']['chooseNew'] = "Choose New Product/Plan";
-$_LANG['upgradeService']['currentProduct'] = "Your Current Product";
-$_LANG['upgradeService']['recommended'] = "Recommended";
-$_LANG['upgradeService']['select'] = "Select";
+$_LANG['upgradeService']['serviceBeingUpgraded'] = "Tjenesten opgraderes";
+$_LANG['upgradeService']['chooseNew'] = "Vælg nyt produkt/plan";
+$_LANG['upgradeService']['currentProduct'] = "Dit nuværende produkt";
+$_LANG['upgradeService']['recommended'] = "Anbefalede";
+$_LANG['upgradeService']['select'] = "Vælg";
 
-$_LANG['feeds']['itemsInBasket'] = "You have <b>:count</b> items in your basket";
+$_LANG['feeds']['itemsInBasket'] = "Du har <b>:count</b> genstande i din kurv";
 
 $_LANG['validation']['accepted'] = "The :attribute must be accepted.";
 $_LANG['validation']['active_url'] = "The :attribute is not a valid URL.";
@@ -2559,70 +2559,70 @@ $_LANG['validation']['timezone'] = "The :attribute must be a valid zone.";
 $_LANG['validation']['unique'] = "The :attribute has already been taken.";
 $_LANG['validation']['url'] = "The :attribute format is invalid.";
 
-$_LANG['orderErrorServerHostnameInvalid'] = "The hostname for your server is invalid.";
-$_LANG['orderErrorServerNameserversInvalid'] = "The nameserver prefix is invalid.";
+$_LANG['orderErrorServerHostnameInvalid'] = "Værtsnavnet for din server er ugyldigt.";
+$_LANG['orderErrorServerNameserversInvalid'] = "Præfikset for navneserveren er ugyldigt.";
 
-$_LANG['toggleNav'] = "Toggle navigation";
-$_LANG['checkAll'] = "Check All";
-$_LANG['uncheckAll'] = "Uncheck All";
+$_LANG['toggleNav'] = "Skift navigation";
+$_LANG['checkAll'] = "Tjek alle";
+$_LANG['uncheckAll'] = "Fjern markeringen af ​​alle";
 
 $_LANG['maxmind']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
 
-$_LANG['nodomain'] = "No domain specified";
+$_LANG['nodomain'] = "Intet domæne er specificeret";
 
-$_LANG['store']['symantec']['cartTitle'] = "Protect your site with SSL";
-$_LANG['store']['symantec']['cartShortDescription'] = "Add SSL to your web hosting to give visitors confidence that your website is safe and secure and help build trust.";
+$_LANG['store']['symantec']['cartTitle'] = "Beskyt dit websted med SSL";
+$_LANG['store']['symantec']['cartShortDescription'] = "Føj SSL til din webhosting for at give de besøgende tillid til, at dit websted er sikkert og sikkert og hjælper med at opbygge tillid.";
 
-$_LANG['store']['weebly']['cartTitle'] = "Powerful Website Builder";
-$_LANG['store']['weebly']['cartShortDescription'] = "Add Weebly's drag and drop website builder to your hosting to allow you to create an awesome looking website, store or blog.";
+$_LANG['store']['weebly']['cartTitle'] = "Kraftig webstedsbygger";
+$_LANG['store']['weebly']['cartShortDescription'] = "Føj Weeblys træk og slip-webstedsbygger til din hosting, så du kan oprette et fantastisk websted, en butik eller en blog.";
 
-$_LANG['store']['spamexperts']['cartTitle'] = "SpamExperts Email Security";
-$_LANG['store']['spamexperts']['cartShortDescription'] = "Add professional email security and archiving to your domain to protect and secure your email against attacks and malware.";
+$_LANG['store']['spamexperts']['cartTitle'] = "SpamExperts e-mail-sikkerhed";
+$_LANG['store']['spamexperts']['cartShortDescription'] = "Tilføj professionel e-mail-sikkerhed og arkivering til dit domæne for at beskytte og sikre din e-mail mod angreb og malware.";
 
-$_LANG['store']['sitelock']['cartTitle'] = "SiteLock Website Security";
+$_LANG['store']['sitelock']['cartTitle'] = "SiteLock websidesikkerhed";
 
-$_LANG['store']['symantec']['promo']['sidebar']['title'] = "Add SSL to your website";
-$_LANG['store']['symantec']['promo']['sidebar']['body'] = "Activate the padlock icon and protect user privacy";
+$_LANG['store']['symantec']['promo']['sidebar']['title'] = "Føj SSL til dit websted";
+$_LANG['store']['symantec']['promo']['sidebar']['body'] = "Aktiver hængelåsikonet og beskyt brugerens privatliv";
 
-$_LANG['store']['weebly']['promo']['sidebar']['title'] = "Powerful Site Builder";
-$_LANG['store']['weebly']['promo']['sidebar']['body'] = "Create a stunning website faster than ever with Weebly";
+$_LANG['store']['weebly']['promo']['sidebar']['title'] = "Kraftfuld byggeplads";
+$_LANG['store']['weebly']['promo']['sidebar']['body'] = "Opret en fantastisk hjemmeside hurtigere end nogensinde med Weebly";
 
-$_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "Get Spam Protection";
-$_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "Stop spam in its tracks with professional spam filtering";
+$_LANG['store']['spamexperts']['promo']['sidebar']['title'] = "Få spambeskyttelse";
+$_LANG['store']['spamexperts']['promo']['sidebar']['body'] = "Stop spam i dens spor med professionel spamfiltrering";
 
-$_LANG['store']['sitelock']['promo']['sidebar']['title'] = "Malware Protection";
-$_LANG['store']['sitelock']['promo']['sidebar']['body'] = "Automatically find malware and protect your online reputation";
+$_LANG['store']['sitelock']['promo']['sidebar']['title'] = "Beskyttelse mod malware";
+$_LANG['store']['sitelock']['promo']['sidebar']['body'] = "Find automatisk malware og beskyt dit online omdømme";
 
-$_LANG['store']['recommendedForYou'] = "Recommended for you";
-$_LANG['store']['lastChance'] = "Last Chance";
+$_LANG['store']['recommendedForYou'] = "Anbefalet til dig";
+$_LANG['store']['lastChance'] = "Sidste chance";
 
-$_LANG['domains']['importantReminder'] = "Important Reminder";
-$_LANG['domains']['irtpNotice'] = "The changes you have made will enable the IRTP Transfer Lock for this domain.";
-$_LANG['domains']['optOut'] = "Opt-out of Transfer Lock (if available)";
-$_LANG['domains']['optOutReason'] = "Reason for Opt-Out (Optional)";
-$_LANG['domains']['contactChangePending'] = "Contact Change Pending";
-$_LANG['domains']['verificationRequired'] = "Verification Required";
-$_LANG['domains']['contactsChanged'] = "A request to change WHOIS information has triggered the contact verification process. An email has been sent to the registered domain owner to approve the changes.";
-$_LANG['domains']['contactsChangedDate'] = "A request to change WHOIS information has triggered the contact verification process. An email has been sent to the registered domain owner to approve the changes. This action must be completed by :date.";
-$_LANG['domains']['newRegistration'] = "An email has been sent to the registered domain owner. The verification must be completed to avoid suspension.";
-$_LANG['domains']['newRegistrationDate'] = "An email has been sent to the registered domain owner. The verification must be completed by :date to avoid suspension.";
-$_LANG['domains']['irtpLockEnabled'] = "IRTP Transfer Lock Enabled";
-$_LANG['domains']['irtpLockDescription'] = "This domain is currently locked for transfer due to a contact change or new registration.";
-$_LANG['domains']['irtpLockDescriptionDate'] = "This domain is currently locked for transfer due to a contact change or new registration. This will expire on :date.";
-$_LANG['domains']['resendNotification'] = "Resend Verification Email";
-$_LANG['domains']['resendNotificationQuestion'] = "Are you sure you wish to resend the email?";
-$_LANG['domains']['resendNotificationSuccess'] = "The verification email has been resent.";
-$_LANG['domains']['modifyPending'] = "Verification Required";
-$_LANG['domains']['changePending'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email to apply the changes.";
-$_LANG['domains']['changePendingDate'] = "Your requested change has triggered the contact verification process. An ownership verification email has been sent to :email. Click on the link in the email within :days days to apply the changes.";
+$_LANG['domains']['importantReminder'] = "Vigtig påmindelse";
+$_LANG['domains']['irtpNotice'] = "De ændringer, du har foretaget, aktiverer IRTP-overførselslåsen for dette domæne.";
+$_LANG['domains']['optOut'] = "Fravalg af overførselslås (hvis muligt)";
+$_LANG['domains']['optOutReason'] = "Årsag til fravalg (Optional)";
+$_LANG['domains']['contactChangePending'] = "Kontaktændring afventer";
+$_LANG['domains']['verificationRequired'] = "Bekræftelse påkrævet";
+$_LANG['domains']['contactsChanged'] = "En anmodning om at ændre WHOIS-oplysninger har udløst kontaktbekræftelsesprocessen. Der er sendt en e-mail til den registrerede domæneejer for at godkende ændringerne.";
+$_LANG['domains']['contactsChangedDate'] = "En anmodning om at ændre WHOIS-oplysninger har udløst kontaktbekræftelsesprocessen. Der er sendt en e-mail til den registrerede domæneejer for at godkende ændringerne. Denne handling skal være afsluttet inden :date.";
+$_LANG['domains']['newRegistration'] = "En e-mail er sendt til den registrerede domæneejer. Verifikationen skal udføres for at undgå suspension.";
+$_LANG['domains']['newRegistrationDate'] = "En e-mail er sendt til den registrerede domæneejer. Verifikationen skal være afsluttet senest den :date for at undgå suspension.";
+$_LANG['domains']['irtpLockEnabled'] = "IRTP Transfer Lock aktiveret";
+$_LANG['domains']['irtpLockDescription'] = "Dette domæne er i øjeblikket låst til overførsel på grund af en kontaktændring eller ny registrering.";
+$_LANG['domains']['irtpLockDescriptionDate'] = "Dette domæne er i øjeblikket låst til overførsel på grund af en kontaktændring eller ny registrering. Dette udløber den :date.";
+$_LANG['domains']['resendNotification'] = "Gensend bekræftelses mail";
+$_LANG['domains']['resendNotificationQuestion'] = "Er du sikker på, at du vil sende e-mailen igen?";
+$_LANG['domains']['resendNotificationSuccess'] = "Bekræftelses-mailen er sendt igen.";
+$_LANG['domains']['modifyPending'] = "Bekræftelse påkrævet";
+$_LANG['domains']['changePending'] = "Din anmodede ændring har udløst kontaktbekræftelsesprocessen. En ejerskabsbekræftelses-e-mail er sendt til :email. Klik på linket i e-mailen for at anvende ændringerne.";
+$_LANG['domains']['changePendingDate'] = "Din anmodede ændring har udløst kontaktbekræftelsesprocessen. En ejerskabsbekræftelses-e-mail er sendt til :email. Klik på linket i e-mailen indenfor :days dage til at anvende ændringerne.";
 $_LANG['domains']['changePendingFormRequired'] = "Your change of Registrant contact information was submitted successfully. In order to complete the process, you are required to complete a <strong>Change of Registrant</strong> form. Please visit :form, complete the form following the instructions and return it to us to finalize the process.";
 
-$_LANG['getStartedNow'] = "Get Started Now";
+$_LANG['getStartedNow'] = "Gå i gang nu";
 $_LANG['notificationsnew'] = "NEW";
 
-$_LANG['store']['websiteBuilder']['tab']['overview'] = "Overview";
+$_LANG['store']['websiteBuilder']['tab']['overview'] = "Oversigt";
 $_LANG['store']['websiteBuilder']['tab']['features'] = "Features";
-$_LANG['store']['websiteBuilder']['tab']['pricing'] = "Pricing";
+$_LANG['store']['websiteBuilder']['tab']['pricing'] = "Priser";
 $_LANG['store']['websiteBuilder']['tab']['faq'] = "FAQ";
 $_LANG['store']['websiteBuilder']['ddEditor'] = "Drag & Drop Builder";
 $_LANG['store']['websiteBuilder']['ddEditorDescription'] = "The easy drag & drop builder allows you to create a professional website with no technical skills required. Choose different elements to add photos, maps or videos by just dragging and dropping them into place, right from your web browser.";
@@ -2702,130 +2702,130 @@ $_LANG['store']['websiteBuilder']['upgrade']['noPlans'] = "No active Weebly plan
 $_LANG['store']['websiteBuilder']['upgrade']['loggedInAs'] = "You are currently logged in as :email";
 $_LANG['store']['websiteBuilder']['upgrade']['switchUser'] = "Logout/switch user";
 
-$_LANG['tax']['taxLabel'] = "Tax ID";
-$_LANG['tax']['vatLabel'] = "VAT Number";
+$_LANG['tax']['taxLabel'] = "Moms ID";
+$_LANG['tax']['vatLabel'] = "MOMS Number";
 $_LANG['tax']['errorInvalid'] = "The supplied :taxLabel is not valid";
 
-$_LANG['fraud']['checkConfiguration'] = "An error occurred with the Fraud Check. Please contact support.";
+$_LANG['fraud']['checkConfiguration'] = "Der opstod en fejl med bedrageriskontrol. Kontakt support.";
 $_LANG['fraud']['title'] = "Fraud Check";
 $_LANG['fraud']['error'] = "Error";
-$_LANG['fraud']['manualReview'] = "Your order has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
-$_LANG['fraud']['highFraudRiskScore'] = "Your order has been flagged as potentially high risk and therefore it has been held for manual review.<br /><br />If you feel you have received this message in error, then please accept our apologies and <a href=\"submitticket.php\">submit a support ticket</a> to our Customer Service Team.  Thank you.";
-$_LANG['fraud']['countryMismatch'] = "The country of your IP address did not match the billing address country you entered so we cannot accept your order";
-$_LANG['fraud']['highRiskCountry'] = "Unfortunately, we are unable to accept your order as there has been a lot of fraudulent activity from your country. If you want to arrange an alternative means of payment, please contact us.";
-$_LANG['fraud']['anonymousProxy'] = "We do not allow orders to be placed using an Anonymous Proxy";
+$_LANG['fraud']['manualReview'] = "Din ordre er tilbageholdt til manuel gennemgang.<br /><br />Hvis du føler, at du har modtaget denne meddelelse ved en fejltagelse, skal du acceptere vores undskyldninger og<a href=\"submitticket.php\">indsend en supportbillet</a> til vores kundeserviceteam. Tak skal du have.";
+$_LANG['fraud']['highFraudRiskScore'] = "Din ordre er blevet markeret som potentielt høj risiko, og derfor er den holdt til manuel gennemgang.<br /><br />Hvis du føler, at du har modtaget denne meddelelse ved en fejltagelse, skal du acceptere vores undskyldninger og <a href=\"submitticket.php\">indsend en supportbillet</a> til vores kundeserviceteam. Tak skal du have.";
+$_LANG['fraud']['countryMismatch'] = "Landet for din IP-adresse matchede ikke det faktureringsadresseland, du indtastede, så vi kan ikke acceptere din ordre";
+$_LANG['fraud']['highRiskCountry'] = "Desværre kan vi ikke acceptere din ordre, da der har været en masse svigagtig aktivitet fra dit land. Hvis du ønsker at arrangere et alternativt betalingsmiddel, bedes du kontakte os.";
+$_LANG['fraud']['anonymousProxy'] = "Vi tillader ikke, at ordrer afgives ved hjælp af en anonym proxy";
 
-$_LANG['fraud']['userVerification'] = "User Verification";
-$_LANG['fraud']['furtherVal'] = "Further verification is required to process your order. Click the button and follow the steps for the secure submission process. You'll be done in less than a minute.";
-$_LANG['fraud']['furtherValShort'] = "Further verification is required. Click the button and follow the steps provided.";
-$_LANG['fraud']['submitDocs'] = "Submit Documents";
-$_LANG['fraud']['submitSuccessMsg'] = "Thank you! Documentation has been provided, and will be manually reviewed by our team.";
-$_LANG['fraud']['status']['notRequested'] = "Not Requested";
-$_LANG['fraud']['status']['notReviewed'] = "Requested";
-$_LANG['fraud']['status']['reviewRequested'] = "Submitted";
-$_LANG['fraud']['status']['failed'] = "Failed";
-$_LANG['fraud']['status']['validated'] = "Verified";
+$_LANG['fraud']['userVerification'] = "Brugerbekræftelse";
+$_LANG['fraud']['furtherVal'] = "Yderligere bekræftelse er nødvendig for at behandle din ordre. Klik på knappen, og følg trinene til den sikre indsendelsesproces. Du er færdig på mindre end et minut.";
+$_LANG['fraud']['furtherValShort'] = "Yderligere verifikation er påkrævet. Klik på knappen og følg de angivne trin.";
+$_LANG['fraud']['submitDocs'] = "Indsend dokumenter";
+$_LANG['fraud']['submitSuccessMsg'] = "Tak skal du have! Dokumentation er leveret og vil blive gennemgået manuelt af vores team.";
+$_LANG['fraud']['status']['notRequested'] = "Ikke anmodet";
+$_LANG['fraud']['status']['notReviewed'] = "Anmodet";
+$_LANG['fraud']['status']['reviewRequested'] = "Afsendt";
+$_LANG['fraud']['status']['failed'] = "Mislykkedes";
+$_LANG['fraud']['status']['validated'] = "Bekræftet";
 
-$_LANG['navMarketConnectService']['codeguard'] = "Website Backup";
+$_LANG['navMarketConnectService']['codeguard'] = "Backup af websted";
 $_LANG['store']['codeguard']['cartTitle'] = "CodeGuard Backup";
-$_LANG['store']['codeguard']['cartShortDescription'] = "The fastest, most reliable website backup service, which tracks all of your changes daily.";
+$_LANG['store']['codeguard']['cartShortDescription'] = "Den hurtigste og mest pålidelige sikkerhedskopieringstjeneste til hjemmesiden, der sporer alle dine ændringer dagligt.";
 $_LANG['store']['codeGuard']['title'] = "CodeGuard Backup";
-$_LANG['store']['codeGuard']['headline'] = "Protect <span>your website</span> with daily automated backups";
-$_LANG['store']['codeGuard']['tagline'] = "Get protection against viruses, hackers and even your own code accidentally breaking your site with CodeGuard Website Backup.";
-$_LANG['store']['codeGuard']['tab']['overview'] = "Overview";
-$_LANG['store']['codeGuard']['tab']['pricing'] = "Pricing";
+$_LANG['store']['codeGuard']['headline'] = "Beskyt <span>dit websted</span> med daglige automatiske sikkerhedskopier";
+$_LANG['store']['codeGuard']['tagline'] = "Få beskyttelse mod vira, hackere og endda din egen kode ved et uheld at bryde dit websted med CodeGuard Website Backup.";
+$_LANG['store']['codeGuard']['tab']['overview'] = "Oversigt";
+$_LANG['store']['codeGuard']['tab']['pricing'] = "Priser";
 $_LANG['store']['codeGuard']['tab']['features'] = "Features";
 $_LANG['store']['codeGuard']['tab']['faq'] = "FAQ";
-$_LANG['store']['codeGuard']['leadTitle'] = "<strong><em>Every 0.65 seconds</em></strong>, a new web page is infected with malware.";
-$_LANG['store']['codeGuard']['leadText1'] = "Protect your site from <strong>data loss and corruption</strong>, as well as against threats from <strong>viruses, hackers and malware</strong> with Daily Automated Website Backups from CodeGuard.";
-$_LANG['store']['codeGuard']['leadText2'] = "With CodeGuard Website Backup, your website is backed up daily and if disaster strikes, you can restore your site to a previous point in time at the click of a button.";
-$_LANG['store']['codeGuard']['dailyBackup'] = "Automatic Daily Backups";
-$_LANG['store']['codeGuard']['malwareProtection'] = "Malware Detection and Restore";
+$_LANG['store']['codeGuard']['leadTitle'] = "<strong><em>Hvert 0,65 sekund</em></strong>, en ny webside er inficeret med malware.";
+$_LANG['store']['codeGuard']['leadText1'] = "Beskyt dit websted mod <strong>datatab og korruption</strong> samt mod trusler fra <strong>vira, hackere og malware</strong> med Daily Automated Website Backups fra CodeGuard.";
+$_LANG['store']['codeGuard']['leadText2'] = "Med CodeGuard Website Backup, sikkerhedskopieres dit websted dagligt, og hvis katastrofe rammer, kan du gendanne dit websted til et tidligere tidspunkt ved at klikke på en knap.";
+$_LANG['store']['codeGuard']['dailyBackup'] = "Automatiske daglige sikkerhedskopier";
+$_LANG['store']['codeGuard']['malwareProtection'] = "Registrering og gendannelse af malware";
 $_LANG['store']['codeGuard']['timeMachine'] = "Website Time Machine";
 $_LANG['store']['codeGuard']['wpPlugin'] = "WordPress Plugin Updates";
-$_LANG['store']['codeGuard']['changeAlerts'] = "File Change Alert Monitoring";
-$_LANG['store']['codeGuard']['features']['dailyBackup'] = "Daily Automatic Website Backups";
-$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "Secure your website with automated daily backups stored offsite with built-in redundancy.";
-$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "Unlimited Files & Databases";
-$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "Backup an unlimited number of files and databases - you are restricted only by the storage space you use.";
-$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "One-Click Restores";
-$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "A simple restore process makes it easy to rollback a single file or your entire website to a previous version.";
-$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "Malware Monitoring";
-$_LANG['store']['codeGuard']['features']['malwareMonitoringDescription'] = "Rest easy knowing CodeGuard is diligently checking your site for changes every day.";
-$_LANG['store']['codeGuard']['features']['wp'] = "Automatic WordPress Updates";
-$_LANG['store']['codeGuard']['features']['wpDescription'] = "Automatically update WordPress and its plugins to keep it secure with auto recovery in case of problems.";
-$_LANG['store']['codeGuard']['features']['fileMonitoring'] = "File Change Monitoring";
-$_LANG['store']['codeGuard']['features']['fileMonitoringDescription'] = "Get notified by email anytime something changes within the source code of your site.";
-$_LANG['store']['codeGuard']['features']['servers'] = "Staging of Restores";
-$_LANG['store']['codeGuard']['features']['serversDescription'] = "Quickly test any backed up site with simple and automated staging prior to restore.";
-$_LANG['store']['codeGuard']['features']['email'] = "Email Backup";
-$_LANG['store']['codeGuard']['features']['emailDescription'] = "Get protection for your emails too as they are backed up as part of your websites files.";
-$_LANG['store']['codeGuard']['features']['api'] = "Full Automation";
-$_LANG['store']['codeGuard']['features']['apiDescription'] = "Completely hands free setup and ongoing backups with automated notifications if things go wrong.";
-$_LANG['store']['codeGuard']['chooseBackupPlan'] = "Choose Backup Storage";
-$_LANG['store']['codeGuard']['faq']['title'] = "Frequently Asked Questions";
-$_LANG['store']['codeGuard']['faq']['q1'] = "What is CodeGuard?";
-$_LANG['store']['codeGuard']['faq']['a1'] = "CodeGuard is a fully automated website backup service that gives you complete protection against data loss and malware.";
-$_LANG['store']['codeGuard']['faq']['q2'] = "Why do I need CodeGuard?";
-$_LANG['store']['codeGuard']['faq']['a2'] = "CodeGuard provides an independent offsite backup solution for your website along with daily monitoring to ensure your website is online and malware free.";
-$_LANG['store']['codeGuard']['faq']['q3'] = "How does it work?";
-$_LANG['store']['codeGuard']['faq']['a3'] = "CodeGuard takes daily automated snapshots of your website. Using these snapshots, you can restore your entire site or a specific file to an earlier version at any time.";
-$_LANG['store']['codeGuard']['faq']['q4'] = "What if I run out of storage?";
-$_LANG['store']['codeGuard']['faq']['a4'] = "Switching plans is easy! You can upgrade and increase your disk storage allowance in just a few simple clicks via our client area.";
-$_LANG['store']['codeGuard']['faq']['q5'] = "Where are backups stored?";
-$_LANG['store']['codeGuard']['faq']['a5'] = "Backups are stored on Amazon Web Services Simple Storage System which provides market leading resiliance and redundancy for your backups.";
-$_LANG['store']['codeGuard']['faq']['q6'] = "Are the backups encrypted?";
-$_LANG['store']['codeGuard']['faq']['a6'] = "Yes, backups are stored encrypted using the AES-256 Encryption Standard.";
-$_LANG['store']['codeGuard']['faq']['q7'] = "Do you backup databases?";
-$_LANG['store']['codeGuard']['faq']['a7'] = "Yes, databases can be backed up also. Database backups are supported for MySQL and MSSQL databases.";
-$_LANG['store']['codeGuard']['faq']['q8'] = "What is File Change Alert Monitoring?";
-$_LANG['store']['codeGuard']['faq']['a8'] = "CodeGuard can monitor and notify you by email when your website changes to alert you to new threats and malware.";
-$_LANG['store']['codeGuard']['faq']['q9'] = "What happens if my site gets infected?";
-$_LANG['store']['codeGuard']['faq']['a9'] = "With CodeGuard's daily snapshots, if your website gets attacked, you can restore to a previous uninfected version at any time.";
-$_LANG['store']['codeGuard']['adminPreview'] = "CodeGuard plans you activate will be displayed here";
+$_LANG['store']['codeGuard']['changeAlerts'] = "Overvågning af filændringsalarm";
+$_LANG['store']['codeGuard']['features']['dailyBackup'] = "Daglige automatiske sikkerhedskopier af websteder";
+$_LANG['store']['codeGuard']['features']['dailyBackupDescription'] = "Beskyt dit websted med automatiserede daglige sikkerhedskopier, der er gemt offsite med indbygget redundans.";
+$_LANG['store']['codeGuard']['features']['unlimitedFiles'] = "Ubegrænset filer og databaser";
+$_LANG['store']['codeGuard']['features']['unlimitedFilesDescription'] = "Sikkerhedskopier et ubegrænset antal filer og databaser - du er kun begrænset af det lagerplads, du bruger.";
+$_LANG['store']['codeGuard']['features']['oneClickRestore'] = "One-Click Gendannelse";
+$_LANG['store']['codeGuard']['features']['oneClickRestoreDescription'] = "En simpel gendannelsesproces gør det let at tilbageføre en enkelt fil eller hele dit websted til en tidligere version.";
+$_LANG['store']['codeGuard']['features']['malwareMonitoring'] = "Overvågning af malware";
+$_LANG['store']['codeGuard']['features']['malwareMonitoringDescription'] = "Vær let at vide CodeGuard kontrollerer flittigt dit websted for ændringer hver dag.";
+$_LANG['store']['codeGuard']['features']['wp'] = "Automatiske WordPress-opdateringer";
+$_LANG['store']['codeGuard']['features']['wpDescription'] = "Opdater automatisk WordPress og dets plugins for at holde det sikkert med automatisk gendannelse i tilfælde af problemer.";
+$_LANG['store']['codeGuard']['features']['fileMonitoring'] = "Overvågning af filændring";
+$_LANG['store']['codeGuard']['features']['fileMonitoringDescription'] = "Bliv underrettet via e-mail når som helst, der ændres inden for kildekoden på dit websted.";
+$_LANG['store']['codeGuard']['features']['servers'] = "Iscenesættelse af gendannelser";
+$_LANG['store']['codeGuard']['features']['serversDescription'] = "Test hurtigt ethvert sikkerhedskopieret websted med enkel og automatiseret iscenesættelse inden gendannelse.";
+$_LANG['store']['codeGuard']['features']['email'] = "Backup af e-mail";
+$_LANG['store']['codeGuard']['features']['emailDescription'] = "Få også beskyttelse af dine e-mails, da de er sikkerhedskopieret som en del af dine webstedsfiler.";
+$_LANG['store']['codeGuard']['features']['api'] = "Fuld automatisering";
+$_LANG['store']['codeGuard']['features']['apiDescription'] = "Helt håndfri opsætning og løbende sikkerhedskopier med automatiske meddelelser, hvis ting går galt.";
+$_LANG['store']['codeGuard']['chooseBackupPlan'] = "Vælg Backup Storage";
+$_LANG['store']['codeGuard']['faq']['title'] = "Ofte stillede spørgsmål";
+$_LANG['store']['codeGuard']['faq']['q1'] = "Hvad er CodeGuard?";
+$_LANG['store']['codeGuard']['faq']['a1'] = "CodeGuard er en fuldautomatisk sikkerhedskopieringstjeneste, der giver dig fuldstændig beskyttelse mod datatab og malware.";
+$_LANG['store']['codeGuard']['faq']['q2'] = "Hvorfor har jeg brug for CodeGuard?";
+$_LANG['store']['codeGuard']['faq']['a2'] = "CodeGuard leverer en uafhængig offsite-sikkerhedskopiløsning til dit websted sammen med daglig overvågning for at sikre, at dit websted er online og fri for malware.";
+$_LANG['store']['codeGuard']['faq']['q3'] = "Hvordan virker det?";
+$_LANG['store']['codeGuard']['faq']['a3'] = "CodeGuard tager daglige automatiserede snapshots af dit websted. Ved hjælp af disse snapshots kan du når som helst gendanne hele dit websted eller en bestemt fil til en tidligere version.";
+$_LANG['store']['codeGuard']['faq']['q4'] = "Hvad hvis jeg løber tør for lagerplads?";
+$_LANG['store']['codeGuard']['faq']['a4'] = "Det er let at skifte planer! Du kan opgradere og øge din disklagergodtgørelse med blot et par enkle klik via vores klientområde.";
+$_LANG['store']['codeGuard']['faq']['q5'] = "Hvor opbevares sikkerhedskopier?";
+$_LANG['store']['codeGuard']['faq']['a5'] = "Sikkerhedskopier gemmes på Amazon Web Services Simple Storage System, som giver markedsledende resiliance og redundans til dine sikkerhedskopier.";
+$_LANG['store']['codeGuard']['faq']['q6'] = "Er sikkerhedskopierne krypteret?";
+$_LANG['store']['codeGuard']['faq']['a6'] = "Ja, sikkerhedskopier gemmes krypteret ved hjælp af AES-256 Encryption Standard.";
+$_LANG['store']['codeGuard']['faq']['q7'] = "Sikkerhedskopierer du databaser?";
+$_LANG['store']['codeGuard']['faq']['a7'] = "Ja, databaser kan også sikkerhedskopieres. Database-sikkerhedskopier understøttes til MySQL- og MSSQL-databaser.";
+$_LANG['store']['codeGuard']['faq']['q8'] = "Hvad er overvågning af filændringsalarm?";
+$_LANG['store']['codeGuard']['faq']['a8'] = "CodeGuard kan overvåge og underrette dig via e-mail, når dit websted ændres for at advare dig om nye trusler og malware.";
+$_LANG['store']['codeGuard']['faq']['q9'] = "Hvad sker der, hvis mit websted bliver inficeret?";
+$_LANG['store']['codeGuard']['faq']['a9'] = "Med CodeGuards daglige snapshots, hvis dit websted bliver angrebet, kan du når som helst gendanne til en tidligere uinficeret version.";
+$_LANG['store']['codeGuard']['adminPreview'] = "CodeGuard-planer, du aktiverer, vises her";
 
-$_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Add Website Backup";
-$_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Protect your website with daily automated backups";
+$_LANG['store']['codeguard']['promo']['sidebar']['title'] = "Tilføj Backup af websted";
+$_LANG['store']['codeguard']['promo']['sidebar']['body'] = "Beskyt dit websted med daglige automatiske sikkerhedskopier";
 
-$_LANG['marketConnect']['codeguard']['manage'] = "Login to CodeGuard Control Panel";
+$_LANG['marketConnect']['codeguard']['manage'] = "Log ind på CodeGuard Kontrolpanel";
 
-$_LANG['sslState']['sslInactive'] = "No SSL Detected. Click here to browse SSL options";
-$_LANG['sslState']['sslActive'] = "Valid SSL Detected. Expires :expiry";
-$_LANG['sslState']['sslUnknown'] = "Unable to validate SSL status";
-$_LANG['sslState']['validSsl'] = "Valid SSL Detected";
-$_LANG['sslState']['noSsl'] = "No SSL Detected";
-$_LANG['sslState']['sslInactiveService'] = "Service inactive";
-$_LANG['sslState']['sslInactiveDomain'] = "Domain inactive";
-$_LANG['sslState']['startDate'] = "SSL Start Date";
-$_LANG['sslState']['expiryDate'] = "SSL Expiry Date";
-$_LANG['sslState']['issuerName'] = "SSL Issuer Name";
-$_LANG['sslState']['sslStatus'] = "SSL Status";
+$_LANG['sslState']['sslInactive'] = "Ingen SSL registreret. Klik her for at gennemse SSL-indstillinger";
+$_LANG['sslState']['sslActive'] = "Gyldig SSL registreret. Udløber :expiry";
+$_LANG['sslState']['sslUnknown'] = "Kan ikke validere SSL-status";
+$_LANG['sslState']['validSsl'] = "Gyldig SSL registreret";
+$_LANG['sslState']['noSsl'] = "Ingen SSL registreret";
+$_LANG['sslState']['sslInactiveService'] = "Tjeneste inaktiv";
+$_LANG['sslState']['sslInactiveDomain'] = "Domæne inaktivt";
+$_LANG['sslState']['startDate'] = "SSL-startdato";
+$_LANG['sslState']['expiryDate'] = "SSL-udløbsdato";
+$_LANG['sslState']['issuerName'] = "SSL-udstederens navn";
+$_LANG['sslState']['sslStatus'] = "SSL-status";
 
-$_LANG['generatePassword']['btnLabel'] = "Generate Password";
-$_LANG['generatePassword']['btnShort'] = "Generate";
-$_LANG['generatePassword']['title'] = "Generate Password";
-$_LANG['generatePassword']['lengthValidationError'] = "Please enter a number between 8 and 64 for the password length";
-$_LANG['generatePassword']['pwLength'] = "Password Length";
-$_LANG['generatePassword']['generatedPw'] = "Generated Password";
-$_LANG['generatePassword']['generateNew'] = "Generate new password";
-$_LANG['generatePassword']['copyAndInsert'] = "Copy to clipboard and Insert";
+$_LANG['generatePassword']['btnLabel'] = "Generer adgangskode";
+$_LANG['generatePassword']['btnShort'] = "Generer";
+$_LANG['generatePassword']['title'] = "Generer adgangskode";
+$_LANG['generatePassword']['lengthValidationError'] = "Indtast et nummer mellem 8 og 64 for adgangskodelængden";
+$_LANG['generatePassword']['pwLength'] = "Adgangskodelængde";
+$_LANG['generatePassword']['generatedPw'] = "Genereret adgangskode";
+$_LANG['generatePassword']['generateNew'] = "Generer ny adgangskode";
+$_LANG['generatePassword']['copyAndInsert'] = "Kopier til udklipsholder og indsæt";
 
-$_LANG['setupMandate'] = "Setup Mandate for Payment";
+$_LANG['setupMandate'] = "Opsæt mandat til betaling";
 
-$_LANG['invoicePaymentPendingCleared'] = "Your payment is being processed and will apply automatically when cleared.";
-$_LANG['invoicePaymentAutoWhenDue'] = "Your payment will be requested automatically when due.";
+$_LANG['invoicePaymentPendingCleared'] = "Din betaling er under behandling og gælder automatisk, når den er ryddet.";
+$_LANG['invoicePaymentAutoWhenDue'] = "Din betaling vil blive anmodet om automatisk, når den forfalder.";
 
-$_LANG['support']['attachmentsRemoved'] = "Removed due to ticket inactivity";
-$_LANG['unpaidInvoiceAlert'] = "You have an unpaid invoice. Pay it now to avoid interruption in service.";
-$_LANG['overdueInvoiceAlert'] = "You have an overdue invoice.";
-$_LANG['payInvoice'] = "Pay Invoice";
+$_LANG['support']['attachmentsRemoved'] = "Fjernet på grund af billetaktivitet";
+$_LANG['unpaidInvoiceAlert'] = "Du har en ubetalt faktura. Betal det nu for at undgå afbrydelse i service.";
+$_LANG['overdueInvoiceAlert'] = "Du har en forfalden faktura.";
+$_LANG['payInvoice'] = "Betal faktura";
 
 $_LANG['close'] = "Close";
 $_LANG['submit'] = "Submit";
 $_LANG['finish'] = "Finish";
 
-$_LANG['twofanowenabled'] = "Two-Factor Authentication is now enabled";
-$_LANG['twofacurrently'] = "Two-factor authentication is currently";
+$_LANG['twofanowenabled'] = "To-faktor-godkendelse er nu aktiveret";
+$_LANG['twofacurrently'] = "To-faktor-godkendelse er i øjeblikket";
 $_LANG['enabled'] = "Enabled";
 $_LANG['disabled'] = "Disabled";
 
